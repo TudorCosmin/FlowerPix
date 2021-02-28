@@ -1,0 +1,9 @@
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Release\din flori.exe.config
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Release\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Release\din flori.pdb
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din flori.csprojAssemblyReference.cache
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din_flori.Form1.resources
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din_flori.Properties.Resources.resources
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din flori.csproj.GenerateResource.cache
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Release\din flori.pdb

@@ -1,0 +1,27 @@
+D:\Info cu Mr. Cosmin\AAA C#\din flori\bin\Debug\din flori.exe.config
+D:\Info cu Mr. Cosmin\AAA C#\din flori\bin\Debug\din flori.exe
+D:\Info cu Mr. Cosmin\AAA C#\din flori\bin\Debug\din flori.pdb
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din flori.csprojAssemblyReference.cache
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din_flori.Form1.resources
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din_flori.Properties.Resources.resources
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din flori.csproj.GenerateResource.cache
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din flori.exe
+D:\Info cu Mr. Cosmin\AAA C#\din flori\obj\Debug\din flori.pdb
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Debug\din flori.exe.config
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Debug\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\bin\Debug\din flori.pdb
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din flori.csprojAssemblyReference.cache
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din_flori.Form1.resources
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din_flori.Properties.Resources.resources
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din flori.csproj.GenerateResource.cache
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - atestat\FlowerPix\obj\Debug\din flori.pdb
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\bin\Debug\din flori.exe.config
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\bin\Debug\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\bin\Debug\din flori.pdb
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din flori.csprojAssemblyReference.cache
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din_flori.Form1.resources
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din_flori.Properties.Resources.resources
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din flori.csproj.GenerateResource.cache
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din flori.exe
+C:\Users\Cosmin\Desktop\FlowerPix - Oanea Tudor-Cosmin\FlowerPix\obj\Debug\din flori.pdb

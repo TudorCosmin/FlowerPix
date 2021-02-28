@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E83B79E-AE3D-4DBA-8B84-9164592324F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>din_flori</RootNamespace>
+    <AssemblyName>din flori</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\176.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\177.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\203.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\204.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\206.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\208.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\209.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\210.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\214.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\218.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\224.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\227.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\234.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\237.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\238.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\253.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\254.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\258.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\260.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\264.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\266.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\268.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\269.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\272.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\273.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\274.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\275.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\276.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\277.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\278.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\279.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\282.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\283.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\284.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\285.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\288.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\289.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\296.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\297.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\298.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\299.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\303.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\305.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\306.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\307.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\309.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\310.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\314.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\316.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\317.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\318.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\319.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\320.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\327.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\328.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\329.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\330.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\334.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\335.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\337.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\338.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\339.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\340.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\342.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\343.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\344.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\346.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\347.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\349.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\353.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\354.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\355.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\356.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\357.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\358.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\359.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\360.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\361.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\362.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\363.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\364.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\365.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\366.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\367.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\368.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\369.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\370.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\371.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\372.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\373.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\374.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\375.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\376.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\377.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\378.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\379.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\380.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\381.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\382.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\383.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\384.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\385.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\387.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\388.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\389.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\390.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\391.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\392.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\393.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\394.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\395.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\396.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\397.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\398.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\399.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\405.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\407.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\408.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\410.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\413.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\414.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\415.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\416.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\417.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\418.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\419.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\420.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\421.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\422.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\423.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\424.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\425.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\426.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\430.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\435.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\436.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\437.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\438.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\440.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\442.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\445.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\447.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\448.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\449.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\450.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\452.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\453.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\454.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\455.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\456.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\457.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\458.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\459.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\460.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\461.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\462.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\463.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\464.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\468.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\470.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\472.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\473.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\474.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\475.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\476.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\477.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\478.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\479.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\484.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\485.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\486.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\487.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\488.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\489.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\490.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\492.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\493.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\494.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\495.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\496.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\497.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\498.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\499.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resurse\colectie\500.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
